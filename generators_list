@@ -1,0 +1,20 @@
+# generators and their purpose: a list
+
+1 : "addition of 2 power of 2 in decimal", "result in decimal" , double possible, biggest number always first
+1_1  "additions of  2 powers of 2, both from 1 to 16 in decimal" , "results in decimal"
+1_2  "additions of 2 powers of 2, both from 1 to 32 in decimal" , "results in decimal"
+1_3  "additions of 2 powers of 2, both from 1 to 64 in decimal" , "results in decimal"
+1_4  "additions of 2 powers of 2, both from 1 to 128 in decimal" , "results in decimal"
+
+2: reverse of 1 : "result - any of the two operand" , "other operand"
+2_1 
+2_2
+2_3
+2_4
+
+3: "8 bits binary, only one bit set to 1" , "same number in decimal"
+3_1 bit set to one is in the last nibble
+3_2 bit set to one is in the first nibble
+3_3 bit set to one in anywhere
+
+4: combination of 1,2,3: " binary with 2 bits set to one", "same number in decimal"
