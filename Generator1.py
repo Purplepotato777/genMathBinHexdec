@@ -8,17 +8,10 @@ for i in range(1 , max_exponant + 1) :
         answer = str(2**i + 2**j)
         deck.append([question , answer])
 
-<<<<<<< HEAD
-print(deck)  # should be store in txt file
-=======
-for i in range(1, max_exponant+1) :
-   for j in range (i+1):
-    a = str(2**i) + '+'+  str(2**j) 
-    b = str(2**i + 2**j)
-    deck.append([a,b])
 
-print(deck) # should be store in txt file
+print(deck)  # should be store in txt file
+
   
 
    
->>>>>>> 2d268def6823926cda769f6286f351a43ad96e30
+
