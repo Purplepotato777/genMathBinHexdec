@@ -7,5 +7,9 @@ for i in range(1, max_exponant + 1) :
         question = str(2**i + 2**j)+ ' ' + '-' + ' ' + str(2**j)
         answer = str(2**i)
         deck.append([question , answer])
+        if 2**i != 2**j :
+            question = str(2**i + 2**j)+ ' ' + '-' + ' ' + str(2**i)
+            answer = str(2**j)
+            deck.append([question , answer])
 
 print(deck)  # should be store in txt file
