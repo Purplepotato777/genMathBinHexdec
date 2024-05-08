@@ -1,6 +1,13 @@
+from os import makedirs
+
+answer_base = 'decimal answers'
+level = 3
+sublevel = 1
+
 # max position of the significant bit if positon indexed from the right = 1 , Set to {4,8} for level{3_1,3_2}
-max_position = 8
+max_position = 4
 deck = []
+
 
 for j in range(max_position) :
     binary_num = []
@@ -20,4 +27,14 @@ for j in range(max_position) :
     deck.append([question , answer])
         
 
-print(deck)  # should be store in txt file
+try:
+    deckfile = open(f'decks/level{level}/sublevel{sublevel}.txt','a') 
+except:
+    makedirs(f'decks/level{level}')    
+    deckfile = open(f'decks/level{level}/sublevel{sublevel}.txt','a') 
+line = answer_base + '\n'
+deckfile.write(line)
+for card in deck:
+   line = str(card[0]) +' -> '+ str(card[1])+ '\n'
+   deckfile.write(line)  
+deckfile.close
