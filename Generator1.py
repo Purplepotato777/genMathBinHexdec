@@ -2,9 +2,9 @@ from os import makedirs
 
 answer_base = 'decimal answers'
 level = 1
-sublevel = 1
+sublevel = 4
 # max_exponant goes from 1 to 7 , the greater, the bigger & more difficult the deck. Set to {4,5,6,7} for level{1_1,1_2,1_3,1_4}
-max_exponant = 4
+max_exponant = 7
 deck = []
 
 for i in range(1 , max_exponant + 1) :
