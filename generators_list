@@ -1,7 +1,7 @@
 # generators and their purposes: a list
 
 ##Generator1
-1 : "addition of 2 power of 2 in decimal", "result in decimal" , double possible, biggest number always first
+1 : question:"addition of 2 power of 2 in decimal", answer:"result in decimal" , double possible, biggest number always first
 1_1  "additions of  2 powers of 2, both from 1 to 16 in decimal" , "results in decimal"
 1_2  "additions of 2 powers of 2, both from 1 to 32 in decimal" , "results in decimal"
 1_3  "additions of 2 powers of 2, both from 1 to 64 in decimal" , "results in decimal"
@@ -13,10 +13,17 @@
 2_3
 2_4
 ##generator3
-3: "8 bits binary, only one bit set to 1" , "same number in decimal", and reverse
-3_1 bit set to one is in the last nibble
-3_2 bit set to one is anywhere
-3_3 reverse of 3_1
-3_4 reverse of 3_2 
+3: "8 bits binary, only one bit set to 1" , "same number in decimal", 
+3_1 bit set to one is in the right nibble
+3_2 bit set to one is in the left nibble
+3_3 bit set to one is anywhere
 
-4: combination of 1,2,3: " binary with 2 bits set to one", "same number in decimal"
+## generator4
+4: reverse of 3 , 
+4_1
+4_2
+4_3
+
+
+
+5: combination of 1,2,3: " binary with 2 bits set to one", "same number in decimal"
