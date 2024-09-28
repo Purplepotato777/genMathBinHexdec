@@ -7,7 +7,7 @@
 1_3  "additions of 2 powers of 2, both from 1 to 64 in decimal" , "results in decimal"
 1_4  "additions of 2 powers of 2, both from 1 to 128 in decimal" , "results in decimal"
 ##generator2
-2: reverse of 1 : "result - any of the two operands" , "other operand"
+2: reverse of generator 1, with similar ranges per sublevel : question : "sum of 2 power of 2 - a power of 2" , answer:"a power of 2" 
 2_1 
 2_2
 2_3
@@ -19,7 +19,7 @@
 3_3 bit set to one is anywhere
 
 ## generator4
-4: reverse of 3 , 
+4: reverse of 3 ,  with similar ranges
 4_1
 4_2
 4_3
@@ -27,3 +27,5 @@
 
 
 5: combination of 1,2,3: " binary with 2 bits set to one", "same number in decimal"
+
+6: no generator for this level, port-services written manually
