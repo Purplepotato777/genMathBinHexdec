@@ -1,0 +1,7 @@
+alphanum answers
+110 -> POP3
+139 -> netbios
+143 -> imap
+443 -> HTTPS
+443 -> winRm
+445 -> SMB

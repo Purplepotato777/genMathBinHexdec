@@ -1,0 +1,9 @@
+alphanum answers
+
+21 -> FTP
+22 -> SSH 
+23 -> telnet
+25 -> SMTP
+53 -> dns zone transfert
+80 -> HTTP 
+

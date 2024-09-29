@@ -1,0 +1,8 @@
+alphanum answers
+53 -> DNS 
+67 -> DHCP
+68 -> DHCP
+137 -> netbios
+138 -> netbios
+161 -> SNMP 
+162 -> SNMP

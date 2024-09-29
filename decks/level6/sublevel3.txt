@@ -1,0 +1,5 @@
+alphanum answers
+3306 -> MySQL
+3389 -> RDP
+5986 -> WinRm
+8080 -> HTTP
